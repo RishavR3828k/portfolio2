@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: grey;
+    height: 100rem;
+    padding: 3rem;
+    position: relative;
+    display: flex;
+    gap: 4rem;
+    flex-direction: row;
+}
+
+.first_box {
+    width: 300px;
+    height: 50rem;
+    border: 2px solid black;
+    border-radius: 30px;
+    background-color: rgb(93, 90, 90);
+    position: sticky;
+    top: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.second_box {
+    border: 2px solid black;
+    border-radius: 30px;
+    width: 100%;
+    height:  90rem;
+    background-color: rgb(93, 90, 90);
+    padding: 30px 50px 30px 100px;
+}
+.first_one{
+    /* border: 2px solid black; */
+    height: 25%;
+    width: 90%;
+    border-radius: 30px;
+    color: white;
+}
+.second_one{
+    height: 40%;
+    width: 100%;
+    /* border: 2px solid black; */
+    border-radius: 30px;
+}
+.all_box{
+    height: 88%;
+    width: 93%;
+    /* border: 2px solid black; */
+    border-radius: 30px;
+    
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.boxes{
+    height: 40%;
+    width: 45%;
+    /* border: 2px solid black; */
+    border-radius: 30px;
+    background-color: rgb(37, 36, 36);
+    color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+}
+.heading{
+    color: white;
+}
+.inner_one{
+    /* border: 1px solid white; */
+    width: 20%;
+    height: 80%;
+    margin: 6px;
+    border-radius: 20px;
+}
+.inner_two{
+    /* border: 1px solid white; */
+    border-radius: 30px;
+    width: 70%;
+    height: 80%;
+    margin: 6px;
+}
+.third_one{
+    /* border: 2px solid black; */
+    border-radius: 30px;
+    width: 95%;
+    height: 20%;
+    /* margin: 2rem; */
+    background-color: rgb(81, 79, 79);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.third_start{
+    border: 1px solid white;
+    width: 40%;
+    height: 80%;
+border-radius: 30px;
+margin: 2rem;
+background-color:  rgb(37, 36, 36);
+}
+.last_heading{
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 1rem;
+}
+.linkedin-frame {
+  width: 100%;
+  height: 600px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+}
+.name_box{
+    /* border: 2px solid black; */
+    border-radius: 20px;
+    width: 80%;
+    height: 30%;
+    margin: 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+.three_box1{
+    /* border: 1px solid white; */
+    width: 100%;
+    height: 30%;
+    border-radius: 20px;
+    /* background-color: black; */
+}
+.three_box2{
+    /* border: 1px solid white; */
+    width: 100%;
+    height: 30%;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+    padding-top: 2rem;
+}
+.three_box3{
+    /* border: 1px solid white; */
+    width: 100%;
+    height: 30%;
+    border-radius: 20px;
+    background-color: rgb(37, 36, 36);
+    color: white;
+    text-align: center;
+    padding-top: 2rem;
+}
+.details_box{
+    /* border: 2px solid black; */
+    border-radius: 20px;
+    width: 80%;
+    height: 50%;
+    margin: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    overflow: visible;
+    text-overflow: ellipsis;
+}
+.details{
+    /* border: 2px solid black; */
+    border-radius: 20px;
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    justify-content: space-between;
+}
+.details_one{
+    /* border: 1px solid black; */
+    border-radius: 20px;
+    width: 60%;
+    height: 80%;
+    /* overflow: hidden;
+    white-space: nowrap; */
+}
+.details_two{
+    /* border: 1px solid black; */
+    border-radius: 20px;
+    width: 60%;
+    height: 80%;
+}
+.details_three{
+    /* border: 1px solid black; */
+    border-radius: 20px;
+    width: 60%;
+    height: 80%;
+}
+.details_four{
+    /* border: 1px solid black; */
+    border-radius: 20px;
+    width: 60%;
+    height: 80%;
+    /* overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis; */
+}
+.last_box{
+    /* border: 2px solid black; */
+    height: 10%;
+    width: 80%;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+    /* padding-left: 2rem; */
+    padding-top: 2px;
+}
