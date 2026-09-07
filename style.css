@@ -24,7 +24,7 @@
     top: 40px;
     border-radius: 20px;
     border: 1px solid rgba(195, 79, 12, 0.274);
-    padding-bottom: 80px;
+    padding-bottom: 10px;
 }
 
 .second_box {
@@ -101,9 +101,13 @@
 .first {
     border: 2px solid black;
     border-radius: 10px;
-    height: 200px;
+    height: 150px;
     width: 250px;
     border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F06F21;
 }
 
 .second_content h1 {
@@ -181,6 +185,9 @@
     height: 50px;
     width: 55px;
     border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .innersmall_box2 {
@@ -211,12 +218,17 @@
     border: 2px solid black;
     border-radius: 20px;
     border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 34px;
 }
 
 .first_smallbox h1 {
     color: white;
     text-align: center;
     margin-top: 8px;
+    margin-bottom: 14px;
 }
 .other_box{
     background-color: #172937;
@@ -229,4 +241,47 @@
     display: flex;
     justify-content: center;
     margin-top: 18px;
+}
+.avatar2{
+    color: #F06F21;
+}
+.avatar3{
+    color: #F06F21;
+}
+.avatar4{
+    color: #F06F21;
+}
+.avatar5{
+    color: #F06F21;
+}
+.third_smallbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 260px;
+    height: 60px;
+    color: #F06F21;
+    gap: 1rem;
+}
+.box2 img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    margin-left: 150px;
+}
+.video{
+    border-radius: 20px;
+    width: 380px;
+    height: 240px;
+    padding-left: 10px;
+    padding-top: 8px;
+}
+.real_avatar{
+    width: 145px;
+    height: 150px;
+    border-radius: 20px;
+    border: 1px solid black ;
+    border: none;
 }
