@@ -5,7 +5,7 @@
 }
 
 .container {
-    height: 200vh;
+    height: auto;
     background-color: #172936;
     position: relative;
     padding: 70px;
@@ -24,6 +24,7 @@
     top: 40px;
     border-radius: 20px;
     border: 1px solid rgba(195, 79, 12, 0.274);
+    padding-bottom: 80px;
 }
 
 .second_box {
@@ -34,6 +35,7 @@
     border: 1px solid rgba(195, 79, 12, 0.274);
     border-radius: 20px;
     color: white;
+    padding-bottom: 80px;
 }
 
 .first_content {
@@ -59,8 +61,7 @@
 .boxes {
     /* border: 2px solid black; */
     border-radius: 20px;
-    width: 860px;
-    height: 500px;
+    height: 465px;
     display: flex;
     flex-wrap: wrap;
     gap: 4px;
@@ -127,13 +128,16 @@
 }
 
 .last_one {
-    padding-bottom: 50px;
+    padding-bottom: 40px;
     padding-left: 28px;
 }
 
 .first_smallbox {
     height: 350px;
-    width: 260px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .first_break {
@@ -219,11 +223,10 @@
     color: white;
     border: 2px solid black;
     border-radius: 10px;
-    width: 248px;
+    width: 210px;
     height: 30px;
     border: none;
     display: flex;
     justify-content: center;
-    margin-left: 8px;
     margin-top: 18px;
 }
