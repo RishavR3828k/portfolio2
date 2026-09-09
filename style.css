@@ -95,6 +95,7 @@
     padding-top: 20px;
     /* margin-top: 20px; */
     /* justify-content: center; */
+    padding-right: 20px;
     text-align: start;
 }
 
@@ -200,12 +201,13 @@
 }
 
 .innersmall_box2 p {
-    color: #AFB5BB;
+    color: #ffffff;
     padding-top: 18px;
 }
 
 .innersmall_box2 h4 {
     color: #A1A6AA;
+    font-weight: 400;
 }
 
 .box2 h2 {
@@ -241,6 +243,7 @@
     border: none;
     display: flex;
     justify-content: center;
+    /* align-items: center; */
     margin-top: 18px;
 }
 .avatar2{
@@ -285,4 +288,19 @@
     border-radius: 20px;
     border: 1px solid black ;
     border: none;
+}
+.third_smallbox a {
+    color: #F06F21;
+}
+
+
+
+
+/* for the mobile css design  */
+@media (max-width: 768px){
+    .container{
+        width: 95%;
+        background-color: #253644;
+    }
+
 }
